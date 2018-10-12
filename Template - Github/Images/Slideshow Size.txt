@@ -1,0 +1,4 @@
+website slideshow size
+
+width = 1600
+height = 400
