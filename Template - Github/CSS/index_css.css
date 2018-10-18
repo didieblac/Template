@@ -4,7 +4,7 @@ nav{
     overflow:hidden;
     text-align: center;
     z-index: 10;
-    font-style: arial;
+    font-style: georgia;
     font-weight: bold;
 }
 
@@ -19,13 +19,15 @@ nav ul li{
 }
 
 nav > ul > li > a{
-    color: black;
+    color: lightblue;
     display: block;
     line-height: 2em;
     padding: 0.5em 1.5em;
     text-decoration: none;
     
 }
+
+
 
 .logo-img{
     float: left;
@@ -45,8 +47,9 @@ nav > ul > li > a{
 
 /* Change the color of links on hover */
  li a:hover {
-  background-color: gray;
-  color: black;
+  background-color: lightblue;
+  color: white;
+  border-radius: 4px;
 }
 
 /* Style the search box inside the navigation bar */
@@ -79,20 +82,16 @@ body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: }
 img {vertical-align: middle;}
 
-
 footer {
     padding: 1em;
     color: white;
     background-color: grey;
     clear: left;
     text-align: center;
+    /*margin:auto;*/
 }
 
 
-
-.copyright_text {
-    color: #747e81;
-}
 
 /* Slideshow container */
 .slideshow-container {
@@ -191,9 +190,9 @@ footer {
 
 .aside1 {
   float: left;
-  width: 25%;
+  width: 24%;
   height: 1000px; 
-  margin: auto;
+  margin: 5px;
   border: 1px solid white;
   background-color: white;
   padding: ;
@@ -202,18 +201,19 @@ footer {
 .section {
   float: left;
   width: 50%;
-  height: 100%; 
-   margin: auto;
+  height: 1000px; 
+   margin: 5px;
   border: 1px solid white;
   background-color: white;
   padding: ;
+  overflow: auto;
 }
 
 .aside2 {
   float: right;
-  width: 25%;
+  width: 24%;
   height: 1000px; 
-  margin: auto;
+  margin: 5px;
   border: 1px solid white;
   background-color: white;
   padding: ;
@@ -277,5 +277,4 @@ footer {
   padding: 10px;
   text-align: center;
 }
-
 
